@@ -1,10 +1,9 @@
 import React, { Component } from "react";
 
 import { Link, NavLink } from "react-router-dom";
-import { Data } from "./data";
-import { useLocation } from "react-router-dom";
 import "../../../js/js/scripts";
 import "../../../js/js/stisla";
+import { Data } from "./data";
 
 // import SidebarGlobal from "../../../js/SidebarGlobal";
 
@@ -15,10 +14,10 @@ export class SideBar extends Component {
       <div className="main-sidebar">
         <aside id="sidebar-wrapper">
           <div className="sidebar-brand">
-            <Link to="/"> Stisla </Link>{" "}
+            <Link to="/">AUSSIE </Link>{" "}
           </div>{" "}
           <div className="sidebar-brand sidebar-brand-sm">
-            <Link to="/"> St </Link>{" "}
+            <Link to="/"> AU</Link>{" "}
           </div>{" "}
           <ul className="sidebar-menu mb-5">
             {" "}
